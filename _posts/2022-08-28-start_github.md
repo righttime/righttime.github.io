@@ -1,6 +1,10 @@
 ---
 title: GitHub Page를 시작하다.
 tags: blog
+article_header:
+  type: cover
+  image:
+    src: /screenshot.jpg
 ---
 
 ### 깃허브 페이지를 시작합니다.

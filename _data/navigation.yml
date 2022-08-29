@@ -2,6 +2,9 @@ header:
   - title: Home
     url: /
 
+  - title: Github Page
+    url: /githubpage
+
   - title: Archive
     url: /archive.html
 

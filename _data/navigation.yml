@@ -1,12 +1,20 @@
 header:
   - title: Home
     url: /
-
   - title: Study
-    url: /study
-
+    url: /study.html
   - title: Archive
     url: /archive.html
-
   - title: About
     url: /about.html
+
+study:
+  - title:      Make Own Blog!
+    children:
+      - title:  Build Github Page
+        url:    /study/build-github-page.html
+  - title:      Tips for Mac!
+    children:
+      - title:  Preferences
+        url:    /study/about-preferences.html
+  

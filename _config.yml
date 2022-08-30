@@ -203,9 +203,8 @@ exclude:
 
 collections_dir: collections
 collections:
-  - study
-  - review
-  - project
+  - study_blog
+  - study_mac
   
 defaults:
   - scope:
@@ -220,6 +219,18 @@ defaults:
       show_edit_on_github: true
       show_subscribe: true
       pageview: true
+#Study
+  - scope:
+      path: ""
+      type: study_blog
+    values:
+      nav_key: study
+  - scope:
+      path: ""
+      type: study_mac
+    values:
+      nav_key: study
+
 
 
 ## => Plugins

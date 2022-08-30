@@ -1,10 +1,12 @@
 ---
 title: GitHub Page를 시작하다.
 tags: blog
+layout: article
 article_header:
-  type: cover
-  image:
-    src: /screenshot.jpg
+  type: overlay
+  theme: dark
+  background_color: '#123'
+  background_image: false
 ---
 
 ### 깃허브 페이지를 시작합니다.

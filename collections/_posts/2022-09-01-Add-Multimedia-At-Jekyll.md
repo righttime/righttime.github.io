@@ -30,7 +30,7 @@ article_header:
   - 두개가 합쳐져서 주소의 이미지를 이미지로 렌더링을 하면서 alt text 로 _표시할 텍스트_
   - ```https://myoctocat.com/assets/images/base-octocat.svg``` 라는 이미지를 뿌려보자
   - ```![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg)```
-  - ![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg) 
+  - ![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg){:style="height:100"}
 
 
 ### Image from my git repository
@@ -76,7 +76,7 @@ article_header:
 - Youtube 에서 원하는 비디오를 고른다
   - 우리집 고양이 동영상을 골라 봤어요.
   - 주소는 ```https://www.youtube.com/watch?v=4c0ERQDYA2A```
-  - ![youtube id](/assets/images/post/youtube_video_id.png){:style="max-height:40"}
+  - ![youtube id](/assets/images/post/youtube_video_id.png){:style="height:30"}
   - 여기서 ```4c0ERQDYA2A``` 부분이 필요한 id! 
 - 아래와 같이 적으면 된다. 
 {% raw %}

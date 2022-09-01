@@ -17,7 +17,9 @@ article_header:
 새로 블로그를 시작하는 누군가에게 도움이 되기를  
 
 # Insert Multimedia  
+
 ## Image  
+
 ### Image from internet  
 - 먼저 쉬운 것부터 해보자. 이건 지금도 알고 있다
 - ```Markdown (Kramdown)``` 에서의 문법은 아래와 같다
@@ -56,13 +58,16 @@ article_header:
 
 
 ## Youtube  
+
 ### Requirement
 - Youtube 는 Plugin 이 필요 한 것 같다.
 - 다행히 TeXt 테마는 여러 Plugin들을 이미 가지고 있는데
 - 플러그인 설치도 나중에 다룰 수 있으면 좋겠네  
+
 ### embed youtube  
 - Youtube 에서 원하는 비디오를 고른다
-- 아래와 같이 적으면 된다.  
+- 아래와 같이 적으면 된다. 
+
 # Post Background Resource
 이제 좀더 심화 과정으로 들어가 보자.  
 새로운 이미지를 넣을 때는 그저 하나하나 만들면 되겠지만...  

@@ -13,6 +13,8 @@ wiki:
     children:
       - title:  Build Github Page
         url:    /study/build-github-page.html
+      - title:  Add Multimedia at jekyll
+        url:    /2022/09/01/Add-Multimedia-At-Jekyll.html
   - title:      Tips for Mac!
     children:
       - title:  Preferences

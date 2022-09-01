@@ -9,16 +9,16 @@ article_header:
   theme: dark
   background_color: '#222'
 ---
-# Multimedia 를 Jekyll에 .. Markdown 으로 어떻게????
+# Multimedia 를 Jekyll에...
 <!--more-->
 지금은 어떻게 해야 하는지 하나도 모르는 상태이다.  
 그리고 다 알고 난 다음에 글을 쓰려면 뭐가 문제인지 모르기에  
 지금 배우면서 기록을 해놓으려 한다.  
 새로 블로그를 시작하는 누군가에게 도움이 되기를  
 
-# Insert Multimedia
-## Image
-### Image from internet
+# Insert Multimedia  
+## Image  
+### Image from internet  
 - 먼저 쉬운 것부터 해보자. 이건 지금도 알고 있다
 - ```Markdown (Kramdown)``` 에서의 문법은 아래와 같다
 - ```![Image alt text 이미지 없을때 표시]($url_for_image)```
@@ -29,6 +29,8 @@ article_header:
   - ```https://myoctocat.com/assets/images/base-octocat.svg``` 라는 이미지를 뿌려보자
   - ```![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg)```
   - ![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg) 
+
+
 ### Image from my git repository
 - 언제나 웹 사이트에 올라가 있는 그림만 보여줄 수는 없는 법
 - 나의 사진, 그리고 캡쳐 등등 의 리소스도 보여줘야 하는데?
@@ -36,6 +38,8 @@ article_header:
   1. 먼저 이미지를 웹에 올린다.
   2. 업로드한 이미지의 Url 을 얻는다.
   3. 위 Url 을 복사해서 MarkDown 으로 이미지를 표시 한다!
+
+
 #### 실전!
 - 이미지를 웹에 올린다. 
 - 아무데나 올려도 됩니다. 웹상이면. 하지만 우린 Git에서 놀고 있으니까 
@@ -49,14 +53,16 @@ article_header:
   - ```![path](/assets/images/post/assets_images_path.png)``` 라고 하면~
   - ![path](/assets/images/post/assets_images_path.png)
   - 짜잔~!
-## Youtube
+
+
+## Youtube  
 ### Requirement
 - Youtube 는 Plugin 이 필요 한 것 같다.
 - 다행히 TeXt 테마는 여러 Plugin들을 이미 가지고 있는데
-- 플러그인 설치도 나중에 다룰 수 있으면 좋겠네
-### embed youtube
+- 플러그인 설치도 나중에 다룰 수 있으면 좋겠네  
+### embed youtube  
 - Youtube 에서 원하는 비디오를 고른다
-- 아래와 같이 적으면 된다.
+- 아래와 같이 적으면 된다.  
 # Post Background Resource
 이제 좀더 심화 과정으로 들어가 보자.  
 새로운 이미지를 넣을 때는 그저 하나하나 만들면 되겠지만...  

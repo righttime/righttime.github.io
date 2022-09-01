@@ -85,7 +85,7 @@ article_header:
 <div>{%- include extensions/youtube.html 
 id='4c0ERQDYA2A' -%}</div>
 - 잘 보이나요? ㅎ
-
+<!-->
 # Post Background Resource
 이제 좀더 심화 과정으로 들어가 보자.  
 새로운 이미지를 넣을 때는 그저 하나하나 만들면 되겠지만...  
@@ -93,3 +93,4 @@ Post의 Header image 라던가
 자주 쓰게 되는 리소스의 경우  
 매번 주소를 모두 타이핑 하기 힘들고 귀찮은 일!  
 자고로 엔지니어라면 귀찬은 일을 없애야만 하는 법!!  
+-->

@@ -68,7 +68,8 @@ article_header:
 - Youtube 에서 원하는 비디오를 고른다
   - 우리집 고양이 동영상을 골라 봤어요.
   - 주소는 ```https://www.youtube.com/watch?v=4c0ERQDYA2A```
-  - ![youtube path](/assets/images/post/youtube_video_id.png)
+  - ![youtube path](/assets/images/post/youtube_video_id.png){:height="25px"}
+  - <img src="https://righttime.github.io/assets/images/post/youtube_video_id.png" height="25" />
   - 여기서 ```4c0ERQDYA2A``` 부분이 필요한 id! 
 - 아래와 같이 적으면 된다. 
 {% raw %}

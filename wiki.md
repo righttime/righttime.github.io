@@ -4,9 +4,11 @@ title: Wiki
 sidebar:
   nav: wiki
 ---
-공부하자 공부해!
+# Fotogrammer's Wiki
 <!--more-->
-
-공부해서 남주나  
-다 내꺼지  
-근데 남도 좀 주자!
+- 나만의 백과 사전
+- 채우자 나의 지식  
+## 목차
+- Blog
+- MacOS
+- Add more!

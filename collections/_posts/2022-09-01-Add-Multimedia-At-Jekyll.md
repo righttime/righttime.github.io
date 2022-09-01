@@ -2,6 +2,8 @@
 title: Jekyll Blog에 멀티미디어 첨부 해보자
 tags: blog
 layout: article
+sidebar:
+  nav: wiki
 article_header:
   type: overlay
   theme: dark

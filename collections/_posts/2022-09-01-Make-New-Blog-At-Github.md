@@ -2,6 +2,8 @@
 title: Github 에 프로젝트 사이트 만들기
 tags: blog
 layout: article
+sidebar:
+  nav: wiki
 article_header:
   type: overlay
   theme: dark

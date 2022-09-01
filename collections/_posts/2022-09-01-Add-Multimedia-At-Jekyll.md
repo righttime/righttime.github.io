@@ -21,7 +21,7 @@ article_header:
 ### Image from internet
 - 먼저 쉬운 것부터 해보자. 이건 지금도 알고 있다
 - ```Markdown (Kramdown)``` 에서의 문법은 아래와 같다
-- ```![Image alt text 마우스 오버시 보여요]($url_for_image)```
+- ```![Image alt text 이미지 없을때 표시]($url_for_image)```
 - 위 문법은 두가지로 나뉘어져 있다
   - **느낌표** : 이 뒤의 링크는 이미지임!
   - ```[표시할 텍스트](주소)``` : _표시할 텍스트_ 에 _주소_ 로 하이퍼 링크를 만듬 > 링크 만드는 문법

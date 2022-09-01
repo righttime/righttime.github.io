@@ -30,7 +30,7 @@ article_header:
   - 두개가 합쳐져서 주소의 이미지를 이미지로 렌더링을 하면서 alt text 로 _표시할 텍스트_
   - ```https://myoctocat.com/assets/images/base-octocat.svg``` 라는 이미지를 뿌려보자
   - ```![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg)```
-  - ![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg){:style="max-height:200"}
+  - ![옥토캣!](https://myoctocat.com/assets/images/base-octocat.svg){:style="max-height:200px"}
 
 
 ### Image from my git repository

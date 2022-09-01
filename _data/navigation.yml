@@ -9,7 +9,7 @@ header:
     url: /about.html
 
 wiki:
-  - title:      Make Own Blog!
+  - title:      Github Page & Jekyll
     children:
       - title:  Github 에 프로젝트 사이트 만들기
         url:    /2022/09/01/Make-New-Blog-At-Github.html

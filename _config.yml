@@ -180,26 +180,16 @@ analytics:
 ## => Build
 ##############################
 markdown    : kramdown
-highlighter : rouge
+highlighter: rouge
+kramdown:
+    syntax_highlighter_opts:
+        block:
+            line_numbers: true
 permalink   : date
 
 exclude:
-  - CHANGELOG.md
-  - HOW_TO_RELEASE.md
-  - Gemfile
-  - Gemfile.lock
   - LICENSE
   - README-*.md
-  - README.md
-  - gulpfile.js
-  - jekyll-text-theme.gemspec
-  - package-lock.json
-  - package.json
-  - /docs
-  - /node_modules
-  - /screenshots
-  - /test
-  - /vendor
 
 collections_dir: collections
 collections:

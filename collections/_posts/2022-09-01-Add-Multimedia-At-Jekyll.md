@@ -66,7 +66,6 @@ article_header:
 - Youtube `플러그인`은 아래 코드가 다네....ㅋㅋ
 {% raw %}
 ~~~ html
-
 <div class="extensions extensions--video">
   <iframe src="https://www.youtube.com/embed/{{ include.id }}?rel=0&showinfo=0"
     frameborder="0" scrolling="no" allowfullscreen></iframe>

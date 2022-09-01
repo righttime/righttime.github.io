@@ -11,9 +11,9 @@ header:
 wiki:
   - title:      Make Own Blog!
     children:
-      - title:  Build Github Page
-        url:    /study/build-github-page.html
-      - title:  Add Multimedia at jekyll
+      - title:  Github 에 프로젝트 사이트 만들기
+        url:    /2022/09/01/Make-New-Blog-At-Github.html
+      - title:  Jekyll Blog에 멀티미디어 첨부 해보자
         url:    /2022/09/01/Add-Multimedia-At-Jekyll.html
   - title:      Tips for Mac!
     children:

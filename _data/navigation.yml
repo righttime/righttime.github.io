@@ -1,14 +1,14 @@
 header:
   - title: Home
     url: /
-  - title: Study
-    url: /study.html
+  - title: Wiki
+    url: /Wiki.html
   - title: Archive
     url: /archive.html
   - title: About
     url: /about.html
 
-study:
+wiki:
   - title:      Make Own Blog!
     children:
       - title:  Build Github Page

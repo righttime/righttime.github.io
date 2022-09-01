@@ -1,8 +1,8 @@
 ---
 layout: article
-title: Study EveryThing!
+title: Wiki
 sidebar:
-  nav: study
+  nav: wiki
 ---
 공부하자 공부해!
 <!--more-->

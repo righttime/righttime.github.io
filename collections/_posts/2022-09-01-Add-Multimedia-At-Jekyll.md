@@ -63,7 +63,13 @@ article_header:
 - Youtube 는 Plugin 이 필요 한 것 같다.
 - 다행히 TeXt 테마는 여러 Plugin들을 이미 가지고 있는데
 - 플러그인 설치도 나중에 다룰 수 있으면 좋겠네  
-
+- Youtube `플러그인`은 아래 코드가 다네....ㅋㅋ
+~~~ html
+<div class="extensions extensions--video">
+  <iframe src="https://www.youtube.com/embed/{{ include.id }}?rel=0&showinfo=0"
+    frameborder="0" scrolling="no" allowfullscreen></iframe>
+</div>
+~~~
 ### embed youtube  
 - Youtube 에서 원하는 비디오를 고른다
   - 우리집 고양이 동영상을 골라 봤어요.

@@ -78,7 +78,7 @@ article_header:
   - 우리집 고양이 동영상을 골라 봤어요.
   - 주소는 ```https://www.youtube.com/watch?v=4c0ERQDYA2A```
   - <img src="https://righttime.github.io/assets/images/post/youtube_video_id.png" height="30" />
-  - <img src="./assets/images/post/youtube_video_id.png" height="30" />
+  - <img src="/assets/images/post/youtube_video_id.png" height="30" />
   - 여기서 ```4c0ERQDYA2A``` 부분이 필요한 id! 
 - 아래와 같이 적으면 된다. 
 {% raw %}

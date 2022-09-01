@@ -53,7 +53,7 @@ article_header:
   - ```/assets/images/post/assets_images_path.png```
   - 그러면 한번 markdown으로 써 볼까요?
   - ```![path](/assets/images/post/assets_images_path.png)``` 라고 하면~
-  - ![path](/assets/images/post/assets_images_path.png)
+  - ![path](/assets/images/post/assets_images_path.png){:style="max-height:100px"}
   - 짜잔~!
 
 

@@ -65,10 +65,12 @@ article_header:
 - 플러그인 설치도 나중에 다룰 수 있으면 좋겠네  
 - Youtube `플러그인`은 아래 코드가 다네....ㅋㅋ
 ~~~ html
+{% raw %}
 <div class="extensions extensions--video">
   <iframe src="https://www.youtube.com/embed/{{ include.id }}?rel=0&showinfo=0"
     frameborder="0" scrolling="no" allowfullscreen></iframe>
 </div>
+{% endraw %}
 ~~~
 ### embed youtube  
 - Youtube 에서 원하는 비디오를 고른다

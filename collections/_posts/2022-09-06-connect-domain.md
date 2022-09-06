@@ -9,7 +9,9 @@ article_header:
   background_color: '#252525'
 ---
 # Git Pages 에 Custom Domain 연결 해 보자
+
 <!-- more -->
+
 > 도메인은 GoDaddy 를 통해 구입 했으니 참고 바랍니다.  
 
 ## Domain 이란?

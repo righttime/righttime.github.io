@@ -11,10 +11,12 @@ header:
 wiki:
   - title:      Github Page & Jekyll
     children:
-      - title:  Github 에 프로젝트 사이트 만들기
+      - title:  프로젝트 사이트 만들기
         url:    /2022/09/01/Make-New-Blog-At-Github.html
-      - title:  Jekyll Blog에 멀티미디어 첨부 해보자
+      - title:  멀티미디어 첨부 해보자
         url:    /2022/09/01/Add-Multimedia-At-Jekyll.html
+      - title:  Domain 연결
+        url:    /2022/09/07/connect-domain.html
   - title:      Tips for Mac!
     children:
       - title:  Preferences

@@ -51,10 +51,9 @@ article_header:
 ## 어떻게 하면 될까?
 - Sub Domain 은 `CNAME` 이라는 DNS Record type 으로 매핑이 되며 
 - Apex Domain 은 `A`, `ALIAS` 라는 DSN Record type 으로 매핑이 된다고 합니다. 
-- 그럼 CNAME, A 라는게 뭘까
-  - CNAME record
+- 그럼 A, CNAME 이라는게 뭘까
   - A record
-    - 직접적으로 IP 에 할당
+    - 직접적으로 Domain 을 IP 에 할당
     - `fotogrammer.com` -> `github IP`
         ``` 
         185.199.108.153
@@ -62,6 +61,31 @@ article_header:
         185.199.110.153
         185.199.111.153
         ```
+    - 위 IP 중에 1개를 골라서 아래와 같은 형식으로 되도록 설정 하면 됩니다.
+      - 관리자 페이지 UI 마다 다르니, 적당히 데이터 맞아 떨어지게...
+      - `{"type":"A", "name":"@", "data":"185.199.110.153"}`
+        - `@` 는 Apex Domain 을 말하고 있습니다 (GoDaddy 기준)    
+    - 이제 `https://fotogrammer.com` 은 깃허브 서버를 가르키게 됩니다.
+  - CNAME record
+    - `https://www.fotogrammer.com` 도 깃허브 서버를 가르키게 하려면 CNAME 설정이 필요합니다.
+    - CNAME 은 IP 를 설정하지 않아요. 
+    - 아래와 같이 하면 됩니다.
+      - `{"type":"CNAME", "name":"www", "data":"fotogrammer.com"}`
+        - name 부분이 subdomain 이 됩니다.
+        - data 부분을 가르키게 됩니다. 
+    - 즉 이렇게 동작합니다!
+      - 브라우저에 `https://www.fotogrammer.com` 입력
+      - name server 에서 `www.fotogrammer.com` 는 `fotogrammer.com` 로 반환
+      - 다시 `fotogrammer.com` 를 찾음
+      - `fotogrammer.com` 은 name server 에서 `185.199.110.153` 이라고 알려줌
+      - `185.199.110.153` 으로 접속!
+    - 조금 복잡하지만, 이렇게 domain 이 ip 로 변환되고, 목적지를 찾아 가게 됩니다.
+
+
+### 퀴즈
+- blog.fotogrammer.com 는 네이년 블로그에 연결하고 싶다. 
+- 네이년 서버의 주소는 1.2.3.4 라고 할 때 
+- 어떤 레코드를 추가해야 할까? 
 
 
 # 참고자료

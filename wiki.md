@@ -3,10 +3,6 @@ layout: article
 title: Wiki
 sidebar:
   nav: wiki
-article_header:
-  type: overlay
-  theme: dark
-  background_color: '#222'
 ---
 # Fotogrammer's Wiki
 <!--more-->

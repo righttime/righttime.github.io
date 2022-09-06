@@ -16,7 +16,7 @@ wiki:
       - title:  멀티미디어 첨부 해보자
         url:    /2022/09/01/Add-Multimedia-At-Jekyll.html
       - title:  Domain 연결
-        url:    /2022/09/07/connect-domain.html
+        url:    /2022/09/06/connect-domain.html
   - title:      Tips for Mac!
     children:
       - title:  Preferences
